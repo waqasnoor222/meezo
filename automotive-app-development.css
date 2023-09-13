@@ -1,0 +1,1320 @@
+ #header-4, #header-4.fixed {
+            box-shadow: -3px 14px 43px 0px rgba(170, 170, 171, 0.15);
+            background: #fff;
+            z-index: 99999999;
+        }
+
+        a {
+            cursor: pointer;
+        }
+
+        p {
+            font-family: Gilroy-Regular;
+            font-size: 18px;
+            line-height: 28px;
+
+        }
+
+        h1 {
+            color: #282526;
+            font-family: Gilroy-Bold;
+            line-height: 55px;
+            font-size: 42px;
+        }
+
+        h2, h3 {
+            font-family: Gilroy-Bold;
+            line-height: 42px;
+            font-size: 32px;
+        }
+
+        h1 span, h2 span, h3 span {
+            font-family: Gilroy-Light;
+        }
+
+        .sec01 p, .sec02 p, .sec03 p, .sec05 p, .sec06 p, .sec09 p {
+            color: #666666;
+        }
+
+        .btns a {
+            padding: 7px 35px;
+            font-size: 14px;
+            font-family: Gilroy-Medium;
+            line-height: 26px;
+            margin-bottom: 20px;
+            color: #fff !important;
+            background: #ffa20a;
+            background: linear-gradient(-45deg, rgba(255, 162, 10, 1) 0, rgba(253, 75, 15, 1) 100%);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-radius: 10px;
+            text-decoration: none;
+            cursor: pointer;
+            z-index: 99;
+            position: relative;
+            margin-top: 10px;
+            display: inline-block;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: #cc0a0a;
+            line-height: 20px;
+            font-family: Gilroy-Medium;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            height: 50px;
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .subtitle:after {
+            content: '';
+            background: #cc0a0a;
+            width: 20px;
+            height: 2px;
+            display: block;
+            margin-top: 30px;
+        }
+
+        .sec11 .subtitle, .sec10 .subtitle {
+            color: #ffffff;
+        }
+
+        .sec11 .subtitle:after, .sec10 .subtitle:after {
+            background: #fff;
+        }
+
+        .sec01 {
+            /*background: url("https://www.tekrevol.com/assets/images-new/solution/automotive/banner.png") no-repeat right center;*/
+            background-size: 45%;
+            padding-top: 135px;
+        }
+
+        .sec01 h6 {
+            font-size: 15px;
+            line-height: 45px;
+            letter-spacing: 3px;
+            color: #cc0a0a;
+            font-family: Gilroy-Bold;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        .sec02 {
+            height: 830px;
+            min-height: 700px;
+            background: #f9f9f9;
+            position: relative;
+            margin-top:80px;
+        }
+
+        .sec06 h2, .sec02 h2, .sec03 h2, .sec05 h2, .sec06 h2, .sec09 h2, .sec09 p {
+            margin-bottom: 25px;
+        }
+
+        .sec02:after {
+            content: '';
+            width: 50%;
+            height: 835px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            top: 0;
+            right: 0;
+            position: absolute;
+            background-position: center center;
+            background: url("https://www.tekrevol.com/assets/images-new/solution/automotive/powering.png");
+        }
+
+        .sec03 {
+            height: 830px;
+            min-height: 700px;
+            background: #ffffff;
+            position: relative;
+            z-index: 9999;
+        }
+
+        .sec03:before {
+            background: url("https://www.tekrevol.com/assets/images-new/solution/automotive/partner.png");
+            background-position: center center !important;
+            content: '';
+            position: absolute;
+            width: 50%;
+            height: 830px;
+            background-size: cover !important;
+            background-repeat: no-repeat !important;
+        }
+
+        .sec04 {
+            background: #000 url("https://www.tekrevol.com/assets/images-new/solution/automotive/sec4.png") no-repeat;
+            height: 848px;
+            min-height: 700px;
+            position: relative;
+            background-position: left bottom;
+            background-size: cover;
+        }
+
+        .sec04 h2 {
+            color: #fff;
+            margin-bottom: 25px;
+        }
+
+        .sec04 p {
+            color: #fff;
+            margin-bottom: 30px;
+        }
+
+        .btns-arrow a {
+            font-family: Gilroy-SemiBold;
+            font-size: 18px;
+            color: #cc0a0a !important;
+            text-decoration: none;
+            cursor: pointer;
+            position: relative;
+            z-index: 99;
+            text-transform: uppercase;
+            margin-right: 10px;
+            letter-spacing: 1px;
+        }
+
+        .btns-arrow svg {
+            margin-left: 10px;
+            position: relative;
+            top: 5px;
+        }
+
+        .btns-arrow a:hover {
+            color: #cc0a0a;
+            text-decoration: none;
+        }
+
+        .sec05 {
+            background: #f9f9f9;
+            position: relative;
+            background: #f9f9f9 url("https://www.tekrevol.com/assets/images-new/solution/automotive/vision.png");
+            padding: 50px 0px;
+            background-repeat: no-repeat;
+            background-size: 50%;
+            background-position: 0%;
+            background-attachment: fixed;
+        }
+
+        .pl-50 {
+            padding-left: 50px;
+        }
+
+        .pr-50 {
+            padding-right: 50px;
+        }
+
+        .sec05 a {
+            font-size: 14px;
+            line-height: 27px;
+            color: #cc0a0a;
+            font-family: Gilroy-SemiBold;
+            text-transform: uppercase;
+        }
+
+        .sec05 a:hover {
+            color: #cc0a0a;
+            text-decoration: none;
+        }
+
+        .sec06 {
+            height: 830px;
+            min-height: 700px;
+            background: #f6f6f6;
+            position: relative;
+        }
+
+        .sec06:after {
+            content: '';
+            width: 50%;
+            height: 835px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            top: 0;
+            right: 0;
+            position: absolute;
+            background-position: center center;
+            background: url("https://www.tekrevol.com/assets/images-new/solution/automotive/benefits.png");
+        }
+
+        .list-point {
+            padding: 0px 0px 0px 20px;
+            margin: 0px;
+            list-style: none;
+        }
+
+        .list-point li {
+            position: relative;
+            margin-bottom: 20px;
+            padding-left: 15px;
+        }
+
+        .list-point li:before {
+            content: '';
+            background: rgb(255, 162, 10);
+            background: linear-gradient(40deg, rgba(255, 162, 10, 1) 0%, rgba(253, 75, 15, 1) 100%);
+            width: 7px;
+            height: 7px;
+            display: inline-block;
+            position: absolute;
+            left: -9px;
+            top: 12px;
+            border-radius: 50%;
+        }
+
+        .list-point li:after {
+            content: '';
+            width: 17px;
+            height: 17px;
+            display: inline-block;
+            position: absolute;
+            left: -14px;
+            border: 1px solid #cc0a0a;
+            top: 7px;
+            border-radius: 50%;
+        }
+
+        .sec06 ul li p {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        .sec07:before {
+            background: url("https://www.tekrevol.com/assets/images-new/solution/automotive/advantage.png");
+            background-position: center center !important;
+            content: '';
+            position: absolute;
+            width: 50%;
+            height: 830px;
+            background-size: cover !important;
+            background-repeat: no-repeat !important;
+        }
+
+        .sec07:after {
+            content: '';
+            background: url("https://www.tekrevol.com/assets/images-new/solution/automotive/star3.png") -31% top;
+            width: 50%;
+            height: 835px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            top: 0;
+            right: 0;
+            position: absolute;
+            background-position: center center;
+        }
+
+        .sec07 {
+            height: 830px;
+            min-height: 700px;
+            background: #1a1a1a;
+            position: relative;
+            z-index: 99;
+        }
+
+        .sec07 h2, .sec07 p {
+            color: #fff;
+            margin-bottom: 25px;
+        }
+
+        .sec07 h2 span, .sec06 h2 span, .sec08 h2 span, .sec05 h2 span, .sec04 h2 span, .sec09 h2 span, .sec10 h2 span, .sec11 h2 span {
+            letter-spacing: -2px;
+        }
+
+        .sec07 h6 {
+            font-size: 22px;
+            font-family: Gilroy-SemiBold;
+            color: #fff;
+            line-height: 28px;
+            margin-bottom: 10px;
+        }
+
+        .sec07 h6:after {
+            content: '';
+            background: #cc0a0a;
+            width: 20px;
+            height: 2px;
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .tran {
+            color: #cc0a0a;
+        }
+
+        .sec08 {
+            height: 492px;
+            min-height: 492px;
+
+        }
+
+        .sec08 h4 {
+            font-size: 20px;
+            letter-spacing: -1px;
+            margin-top: 40px;
+            font-family: Gilroy-Regular;
+        }
+
+        .sec09 {
+            background: #f9f9f9;
+            position: relative;
+            background: #f9f9f9 url("https://www.tekrevol.com/assets/images-new/solution/automotive/promise.png");
+            padding: 50px 0px;
+            background-repeat: no-repeat;
+            background-size: 50%;
+            background-position: 100%;
+            background-attachment: fixed;
+        }
+
+
+        .sec09 p a {
+            color: #fff;
+            font-size: 15px;
+            line-height: 24px;
+            padding-left: 16px;
+        }
+
+        .sec10 {
+            background: #000 url("https://www.tekrevol.com/assets/images-new/solution/automotive/bottom.png") no-repeat;
+            height: 885px;
+            min-height: 700px;
+            position: relative;
+            background-position: left bottom;
+            background-size: cover;
+        }
+
+        .sec10 h2 {
+            color: #fff;
+            margin-bottom: 25px;
+        }
+
+        .sec10 p {
+            color: #fff;
+            margin-bottom: 30px;
+            margin-top: 33px;
+        }
+
+        .mt-155 {
+            margin-top: 155px;
+        }
+
+        .sec11 {
+            height: 580px;
+            min-height: 580px;
+            background: #f84525;
+            position: relative;
+        }
+
+        .sec11 h2 {
+            color: #fff;
+            margin-bottom: 25px;
+            margin-top: 45px;
+        }
+
+        .sec11 p {
+            margin-bottom: 25px;
+            color: #282526;
+        }
+
+        .sec11 p a {
+            color: #fff;
+            font-size: 15px;
+            line-height: 24px;
+            padding-left: 16px;
+        }
+
+        .slider_solution .slick-next.slick-arrow {
+            z-index: 99;
+            border: 0px;
+            font-size: 0;
+            background: url("https://www.tekrevol.com/assets/images-new/solution/automotive/pre.png");
+            height: 108px;
+            width: 54px;
+            position: absolute;
+            right: 0;
+            transform: rotate(180deg);
+            -webkit-transform: rotate(180deg);
+            top: 40%;
+        }
+
+        .slider_solution .slick-prev.slick-arrow {
+            position: absolute;
+            left: 0;
+            top: 40%;
+            z-index: 99;
+            border: 0px;
+            font-size: 0;
+            background: url("https://www.tekrevol.com/assets/images-new/solution/automotive/pre.png");;
+            height: 108px;
+            width: 54px;
+        }
+
+        button:focus {
+            outline: 1px dotted;
+            outline: 0px auto -webkit-focus-ring-color;
+        }
+
+        .slider_solution h4 {
+            color: #fff;
+            font-family: Gilroy-Bold;
+            font-size: 25px;
+            position: absolute;
+            z-index: 999999999;
+            bottom: 60px;
+            left: 25px;
+        }
+
+        .shez {
+            padding-left: 0px;
+            position: relative;
+            left: 100px;
+        }
+
+        .shez1 {
+            position: relative;
+            padding-right: 50px;
+        }
+
+        .slid {
+            position: relative;
+            height: 580px;
+        }
+
+        .slid img {
+            height: 100%;
+            object-fit: cover;
+            width: 100%;
+        }
+
+        .slider_solution {
+            margin-bottom: 0 !important;
+        }
+        
+         
+
+        @media (min-width: 1200px) and (max-width: 1520px) {
+            .sec02, .sec03, .sec06, .sec07, .sec07:before, .sec03:after, .sec03:before {
+                height: 712px;
+                overflow: hidden;
+            }
+
+            .sec04 {
+                height: 690px;
+                min-height: 650px;
+            }
+
+            .sec08 {
+                height: 340px;
+                min-height: 340px;
+            }
+
+            .slid, .sec11 {
+                height: 450px;
+                min-height: 450px;
+            }
+
+            .slider_solution h4 {
+                font-size: 22px;
+            }
+
+
+            .sec06, .sec06:after {
+                height: 650px;
+                min-height: 650px;
+            }
+
+            .sec10 {
+                height: 710px;
+                min-height: 710px;
+            }
+
+            .mt-155 {
+                margin-top: 100px;
+            }
+
+            .sec02:after {
+                background: url("https://www.tekrevol.com/assets/images-new/solution/automotive/powering-d.png");
+                background-size: contain;
+                background-repeat: repeat;
+                background-position: top;
+            }
+            
+
+        }
+
+        @media (min-width: 901px) and (max-width: 1199px) {
+
+
+            h1 {
+                font-size: 35px;
+                line-height: 40px;
+            }
+
+            p {
+                font-size: 15px;
+                line-height: 22px;
+            }
+
+            .sec01 {
+                height: 530px;
+                min-height: 530px;
+            }
+
+            h2 {
+                font-size: 30px;
+                line-height: 45px;
+            }
+
+            .sec02, .sec03, .sec06, .sec02:after, .sec05:before, .sec06:after, .sec07:after, .sec09:before, .sec09:after, .sec03:before, .sec03:after {
+                height: 610px;
+                min-height: 610px;
+            }
+
+            .sec02:after {
+                background: url("https://www.tekrevol.com/assets/images-new/solution/automotive/powering1.png");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                background-position: 100%;
+            }
+
+            .sec05 {
+                padding: 50px 0px;
+                background: #f9f9f9 url("https://www.tekrevol.com/assets/images-new/solution/automotive/vision1.png");
+                background-repeat: no-repeat;
+                background-size: 50% 100%;
+                background-position: 0px;
+                background-attachment: unset;
+
+            }
+
+            .sec09 {
+                padding: 50px 0px;
+                background: #f9f9f9 url("https://www.tekrevol.com/assets/images-new/solution/automotive/promise1.png");
+                background-repeat: no-repeat;
+                background-size: 50% 100%;
+                background-position: 100%;
+                background-attachment: unset;
+            }
+
+            .sec06 ul li p {
+                font-size: 16px;
+            }
+
+            .sec04 {
+                height: 600px;
+                min-height: 600px;
+            }
+
+            .sec08 {
+                height: 280px;
+                min-height: 280px;
+            }
+
+            .sec08 h4 {
+                font-size: 18px;
+            }
+
+            .sec11 {
+                height: 480px;
+                min-height: 480px;
+            }
+
+            .slid {
+                height: 480px;
+            }
+
+            .slider_solution h4 {
+                font-size: 18px;
+            }
+
+            .sec10 {
+                height: 655px;
+                min-height: 655px;
+            }
+
+            .mt-155 {
+                margin-top: 55px;
+            }
+
+            .sec07 {
+                overflow: hidden;
+                height: 650px;
+                min-height: 650px;
+            }
+
+            .sec07:before {
+                height: 650px;
+                min-height: 650px;
+            }
+
+            .sec07 .pl-50 {
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 900px) {
+            .side-nav span {
+                background: #000;
+            }
+            .inrow{
+                display:none !important;
+            }
+            .sidepanel .navbar-nav .nav-link, .sidepanel .navbar-nav .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+                color: #fff;
+            }
+
+            .sec01 h1 {
+                font-size: 35px;
+                line-height: 40px;
+            }
+
+            p {
+                font-size: 15px;
+                line-height: 22px;
+            }
+
+            .sec01 {
+                /*height: 430px;*/
+                /*min-height: 430px;*/
+                padding-top: 80px;
+                padding-bottom: 0px;
+
+            }
+
+            h2, h3 {
+                font-size: 30px;
+                line-height: 32px;
+            }
+
+            .sec02, .sec03, .sec06, .sec02:after, .sec05:before, .sec06:after, .sec09:before, .sec09:after, .sec03, .sec03:before, .sec03:after {
+                height: 550px;
+                min-height: 550px;
+            }
+
+            .sec02:after {
+                background: url("https://www.tekrevol.com/assets/images-new/solution/automotive/powering1.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: 100%;
+            }
+
+            .sec05 {
+                padding: 50px 0px;
+                background: #f9f9f9 url("https://www.tekrevol.com/assets/images-new/solution/automotive/vision2.png");
+                background-repeat: no-repeat;
+                background-size: 50% 100%;
+                background-position: 0%;
+                background-attachment: unset;
+            }
+
+            .sec09 {
+                padding: 50px 0px;
+                background: #f9f9f9 url("https://www.tekrevol.com/assets/images-new/solution/automotive/promise2.png");
+                background-repeat: no-repeat;
+                background-size: 50% 100%;
+                background-position: 100%;
+                background-attachment: unset;
+            }
+
+            .sec02:after {
+                background-position: 46% 0px !important;
+            }
+
+            .sec07, .sec07:after, .sec07:before {
+                height: 710px;
+                min-height: 710px;
+            }
+
+            .sec07 {
+                overflow: hidden;
+            }
+
+            .sec07 .pl-50 {
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+
+            p {
+                font-size: 15px;
+                line-height: 20px;
+            }
+
+            .sec06 ul li p {
+                font-size: 16px;
+            }
+
+            .sec04 {
+                height: 550px;
+                min-height: 550px;
+            }
+
+            .sec08 {
+                height: 250px;
+                min-height: 250px;
+            }
+
+            .sec08 h4 {
+                font-size: 15px;
+            }
+
+            .sec11, .slid {
+                height: 480px;
+                min-height: 480px;
+            }
+
+            .slider_solution h4 {
+                font-size: 18px;
+            }
+
+            .sec10 {
+                height: 600px;
+                min-height: 600px;
+            }
+
+            .mt-155 {
+                margin-top: 55px;
+            }
+
+            .pl-50 {
+                padding-left: 15px;
+            }
+
+            .pr-50 {
+                padding-right: 15px;
+            }
+           
+
+        }
+
+        @media (max-width: 767px) and (min-width: 0px) {
+            .side-nav span {
+                background: #000;
+            }
+
+            .sidepanel .navbar-nav .nav-link, .sidepanel .navbar-nav .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+                color: #fff;
+            }
+
+            .pl-50 {
+                padding-left: 15px;
+            }
+
+            .pr-50 {
+                padding-right: 15px;
+            }
+
+            .sec01 {
+                padding: 50px 0;
+                height: auto;
+                min-height: auto;
+                background: initial;
+            }
+
+            .sec04 {
+                background: #000;
+            }
+
+            .sec02, .sec04, .sec07, .sec08, .sec11, .sec09, .sec10, .sec05, .sec06 {
+                padding: 50px 0;
+                height: auto;
+                min-height: auto;
+
+            }
+
+            .sec03 {
+                padding: 50px 0 0px;
+                height: auto;
+                min-height: auto;
+            }
+
+            .sec11 {
+                padding: 50px 0 0;
+                height: auto;
+                min-height: auto;
+
+            }
+
+            .sec01 h1 {
+                font-size: 35px;
+                line-height: 40px;
+            }
+
+
+            .subtitle {
+                font-size: 12px;
+                line-height: 35px;
+            }
+
+            .sec01 h6 {
+                font-size: 12px;
+                line-height: 35px;
+            }
+
+            .sec02:after, .sec05:before, .sec06:after, .sec07:before, .sec09:after, .sec03:before, .sec03:after, .sec02:after {
+                display: none;
+            }
+
+
+            .subtitle:after {
+                margin-top: 12px;
+            }
+
+            h2, h3 {
+                font-size: 35px;
+                line-height: 40px;
+            }
+
+            .sec03 .or2 {
+                order: 2;
+            }
+
+            .sec03 .or2, .sec07 .or2 {
+                order: 2;
+                margin-top: 30px !important;
+            }
+
+            .list-point {
+                margin: 0px 0 30px 0;
+            }
+
+            .sec02 img {
+                margin-top: 30px;
+            }
+
+
+            .sec11:before {
+                background-position: top left !important;
+                width: 100%;
+                height: 300px;
+                top: 0;
+            }
+
+            .sec05 img {
+                margin-bottom: 20px;
+            }
+
+            .sec06 ul li p {
+                font-size: 16px;
+            }
+
+
+            .sec08 h4 {
+                font-size: 16px;
+                margin-top: 25px;
+                margin-bottom: 20px;
+            }
+
+            .mob-center {
+                text-align: center;
+            }
+
+            .connect {
+                margin-bottom: 30px;
+                display: block;
+            }
+
+            .mt-155 {
+                margin-top: 55px;
+            }
+
+            .slid {
+                height: 533px;
+                top: 6px;
+            }
+
+            .sec09, .sec05 {
+                background: #f9f9f9;
+            }
+              
+.sec02{
+    margin-top:0px;
+}
+
+        }
+
+        @media (min-width: 0px) and (max-width: 360px) {
+            .sec01 h1 {
+                font-size: 33px;
+                line-height: 40px;
+            }
+
+            h2, h3 {
+                font-size: 30px;
+                line-height: 36px;
+            }
+
+        }
+
+
+/*Inshaal Form CSS*/
+.inrow {
+    display: flex;
+    align-items: top;
+      /* position: absolute; */
+    bottom: 0;
+    padding-top: 20px;
+}
+.inrow h3 {
+    width: 358px;
+    font-size: 22px;
+}
+.img_logo {
+    padding: 0 14px;
+}
+.sec01 ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+
+@media (min-width: 1201px) and (max-width: 1300px){
+    .inrow h3 {
+    font-size: 24px;
+}
+.img_logo {
+    padding: 0 8px;
+}
+}
+
+
+@media (min-width: 1025px) and (max-width: 1200px){
+   .img_logo {
+    padding: 0 8px;
+}
+.inrow h3 {
+    font-size: 20px;
+}
+} 
+
+@media (min-width: 992px) and (max-width: 1024px){
+   .inrow {
+    padding-top: 80px;
+}
+.img_logo {
+    padding: 0 8px;
+}
+.inrow h3 {
+    font-size: 20px;
+} 
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .inrow h3 {
+    font-size: 17px;
+}
+.inrow {
+    padding-top: 50px;
+}
+.img_logo {
+    padding: 0 8px;
+}
+}  
+
+@media (min-width: 0px) and (max-width: 767px){
+   .inrow {
+    position: initial;
+    padding-top: 20px;
+    display: initial;
+}
+.inrow ul {
+    margin-bottom: 10px;
+}
+.img_logo {
+    padding: 0 7px;
+}
+.inrow h3 {
+    font-size: 26px;
+    padding-top: 20px;
+}
+.sec01 ul {
+    padding:0px;
+    
+}
+.sec01 img{
+    margin-top:0px;
+}  
+}
+/*Inhaal Form CSS*/
+.box h3 {
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 40px;
+    letter-spacing: 0.022em;
+     font-family: Gilroy-Bold !important;
+}
+.box.form .form-group {
+    position: relative;
+}
+.box.form input:-webkit-autofill, input:-webkit-autofill:focus, input:-webkit-autofill:hover, select:-webkit-autofill, select:-webkit-autofill:focus, select:-webkit-autofill:hover, textarea:-webkit-autofill, textarea:-webkit-autofill:focus, textarea:-webkit-autofill:hover {
+    -webkit-text-fill-color: #495057 !important;
+}
+.box.form .form-group2:after {
+    content: '';
+    width: 20px;
+    height: 2px;
+    background: #F47A1F;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.box h3 span {
+    font-weight: 500;
+    color: #F47A1F;
+     font-family: Gilroy-Bold !important;
+}
+.box h3 span {
+    font-weight: 500;
+    color: #F47A1F;
+}
+ .show_mob{display:none;}
+    .hide_mob{display:block;}
+.form .form-control {
+    background: #fff0;
+    font-family: 'Gilroy-Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    /* or 333% */
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0 0px;
+    border-radius: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid #00000024;
+    margin-bottom: 10px;
+    resize: none;
+    overflow: hidden;
+}
+.form-group1 label span{
+   font-family: 'Gilroy-Medium'; 
+}
+
+.box {
+    background: #FFFFFF;
+    box-shadow: 7px 1px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 20px 40px;
+    max-width: 420px;
+    margin: auto;
+}
+
+.form-group1 {
+    margin-top: 22px;
+    margin-bottom: 30px;
+}
+.btn-01 {
+    color: #F47A1F;
+    border-radius: 10px;
+    border: 2px solid #F47A1F;
+    padding: 0 35px;
+    height: 55px;
+    line-height: 52px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 19px;
+    background: #fff0;
+    transition: .5s ease;
+    cursor:pointer;
+}
+.btn-01:hover {
+    background: #F47A1F;
+    color: #fff;
+}
+.box.form input ,textarea:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+@media (min-width: 1521px) and (max-width: 1920px) {
+    .box h3 {
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom:10px;
+    line-height:45px;
+    }
+    .box h3 span {
+    font-size: 35px;
+     line-height:45px;
+}
+.form-group1 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.form .form-control {
+    height: 40px;
+    font-size:13px;
+}
+.btn-01 {
+    margin-top: 10px;
+    width: 160px;
+    padding: 0px;
+    font-size: 15px;
+    height: 50px;
+    line-height: 45px;
+}
+}
+
+  @media (min-width: 1200px) and (max-width: 1520px) {
+      .box h3 {
+    font-size: 34px;
+    line-height: 40px;
+     margin-bottom: 10px;
+}
+.banner {
+    height:100vh;
+    padding-top: 70px;
+}
+
+.form .form-control {
+    height: 40px;
+    font-size:13px;
+}
+.form-group1 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.btn-01 {
+    margin-top: 10px;
+    width: 160px;
+    padding: 0px;
+    font-size: 15px;
+    height: 50px;
+    line-height: 45px;
+}
+.form-group1 label span {
+    font-size: 14px;
+    vertical-align: text-top;
+}
+.box h3 span {
+    font-size:34px;
+}
+.box {
+    max-width: 390px;
+    margin: auto;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .box h3 {
+    font-size: 34px;
+    line-height: 40px;
+     margin-bottom: 10px;
+}
+.banner {
+    padding-top: 70px;
+}
+
+.form .form-control {
+    height: 40px;
+    font-size:13px;
+}
+.form-group1 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.btn-01 {
+    margin-top: 10px;
+    width: 160px;
+    padding: 0px;
+    font-size: 15px;
+    height: 50px;
+    line-height: 45px;
+}
+.form-group1 label span {
+    font-size: 14px;
+    vertical-align: text-top;
+}
+.box h3 span {
+    font-size:34px;
+}
+.box {
+    max-width: 390px;
+    margin: auto;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+ .box {
+    padding: 20px 20px;
+}
+.box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.form .form-control {
+    height: 40px;
+    font-size:13px;
+}
+.form-group1 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.btn-01 {
+    margin-top: 10px;
+    width: 160px;
+    padding: 0px;
+    font-size: 15px;
+    height: 50px;
+    line-height: 45px;
+}
+.form-group1 label span {
+    font-size: 14px;
+    vertical-align: text-top;
+}
+.box h3 span {
+    font-size:34px;
+}
+.box {
+    max-width: 390px;
+    margin: auto;
+}
+}
+
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .box {
+    padding: 20px 20px;
+    margin-top: 20px;
+}
+.banner {
+    height:100%;
+    padding-top: 70px;
+    padding-bottom:30px;
+}
+.box h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.form .form-control {
+    height: 40px;
+}
+.box h3 span {
+    font-size:23px;
+}
+.form-group1 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.btn-01 {
+    margin-top: 10px;
+    width: 150px;
+    padding: 0px;
+    font-size: 15px;
+}
+.form-group1 label span {
+    font-size: 13px;
+}
+.box h3 {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+  }

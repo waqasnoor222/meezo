@@ -1,0 +1,1885 @@
+
+     .btns a:hover:before {
+    background: rgba(255, 255, 255, 0.7);
+    left: 60%;
+    right: 60%;
+}
+.btns a:before, .btns a:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: all 0.5s ease 0s;
+}.btns a:hover:after {
+    background: rgba(255, 255, 255, 0.7);
+    top: 60%;
+    bottom: 60%;
+}
+ .btns a:before, .btns a:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: all 0.5s ease 0s;
+}
+.btns a {
+    padding: 10px 35px;
+    font-size: 12px;
+    font-family: Gilroy-Regular, sans-serif;
+    line-height: 26px;
+    margin-bottom: 20px;
+    color: #fff !important;
+    background: #ffa20a;
+    background: linear-gradient(
+-45deg
+, #ffa20a 0, #fd4b0f 100%);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 99;
+    position: relative;
+        margin-top: 10px;
+    display: inline-block;
+}
+    
+    
+    
+    #header-4, #header-4.fixed {
+            box-shadow: -3px 14px 43px 0 rgba(170, 170, 171, .15);
+            background: #fff;
+            z-index: 99999999
+        }
+
+        p {
+            font-family: Gilroy-Regular;
+            font-size: 18px;
+            line-height: 28px
+        }
+
+        h1 {
+            font-family: Gilroy-Bold;
+            line-height: 55px;
+            font-size: 42px
+        }
+
+        h2, h3 {
+            font-family: Gilroy-Bold;
+            line-height: 42px;
+            font-size: 32px
+        }
+
+        h1 span, h2 span, h3 span {
+            font-family: Gilroy-Light
+        }
+
+    /*    .sec-01 {*/
+    /*        padding: 140px 0 50px;*/
+    /*        height: 100vh;*/
+            /*background: url("https://www.tekrevol.com/assets/images-new/services/web/banner.png") no-repeat right center;*/
+    /*            background-size: 44%;*/
+    /*padding-top: 135px;*/
+    /*padding-bottom: 50px;*/
+    /*background-position: 96% 82%;*/
+    /*    }*/
+        
+         .sec-01 {
+            height: 100vh;
+        }
+
+
+        .sec-01 .container {
+            position: relative;
+            z-index: 99
+        }
+
+        .sec-01:after {
+            content: '';
+            /*background-image: url("https://www.tekrevol.com/assets/images-new/services/web/cricle-dot.png");*/
+            width: 1310px;
+            height: 412px;
+            display: block;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: top right;
+            position: absolute;
+            right: 0;
+            top: 0
+        }
+
+        .sec-01 .subtitle {
+            font-size: 15px;
+            color: #ef5123;
+            line-height: 20px;
+            font-family: Gilroy-Medium;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            height: 50px;
+            position: relative;
+            margin-bottom: 30px;
+            margin-top: 60px;
+        }
+
+        .sec-01 .subtitle:after {
+            content: '';
+            background: #ef5123;
+            width: 20px;
+            height: 2px;
+            display: block;
+            margin-top: 30px
+        }
+
+        .sec-01 p {
+            /*padding-top: 50px*/
+        }
+
+        .sec-01 p:before {
+            content: '';
+            /*background: #ef5123;*/
+            /*width: 20px;*/
+            /*height: 2px;*/
+            /*display: block;*/
+            /*margin-bottom: 30px*/
+        }
+
+        .sec-03 {
+            padding: 87px 0 87px;
+            background: #fff;
+            position: relative
+        }
+
+        .sec-03 .subtitle {
+            font-size: 15px;
+            color: #ef5123;
+            line-height: 20px;
+            font-family: Gilroy-Medium;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            height: 50px;
+            position: relative;
+            margin-bottom: 30px
+        }
+
+        .sec-03 .subtitle:after {
+            content: '';
+            background: #ef5123;
+            width: 20px;
+            height: 2px;
+            display: block;
+            margin-top: 30px
+        }
+
+        .sec-03:after {
+            content: '';
+            background-image: url("https://www.tekrevol.com/assets/images-new/services/web/cricle.png");
+            width: 1310px;
+            height: 412px;
+            display: block;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: top right;
+            position: absolute;
+            right: 0;
+            top: 0
+        }
+
+        .btns a {
+            padding: 10px 35px;
+            font-size: 12px;
+            font-family: Gilroy-Regular, sans-serif;
+            line-height: 26px;
+            margin-bottom: 20px;
+            color: #fff !important;
+            background: #ffa20a;
+            background: linear-gradient(-45deg, #ffa20a 0, #fd4b0f 100%);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-radius: 10px;
+            text-decoration: none;
+            cursor: pointer;
+            z-index: 99;
+            position: relative
+        }
+
+        .sec-04 {
+            background: #1a1a1a;
+            padding: 100px 0 60px;
+            position: relative;
+            overflow: hidden
+        }
+
+        .sec-04:before {
+            content: '';
+            background-image: url("https://www.tekrevol.com/assets/images-new/services/web/cricle-full.png");
+            width: 1310px;
+            height: 1050px;
+            display: block;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: top left;
+            position: absolute;
+            left: 0;
+            top: -300px;
+            opacity: .1
+        }
+
+        .sec-04:after {
+            content: '';
+            background-image: url("https://www.tekrevol.com/assets/images-new/services/web/dot.png");
+            width: 185px;
+            height: 125px;
+            display: block;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: top left;
+            position: absolute;
+            right: 250px;
+            top: 180px;
+            opacity: .7
+        }
+
+        .sec-04 .subtitle {
+            font-size: 15px;
+            color: #ef5123;
+            line-height: 20px;
+            font-family: Gilroy-Medium;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            height: 50px;
+            position: relative;
+            margin-bottom: 30px
+        }
+
+        .sec-04 .subtitle:after {
+            content: '';
+            background: #ef5123;
+            width: 20px;
+            height: 2px;
+            display: block;
+            margin-top: 30px
+        }
+
+        .sec-04 h4 {
+            font-family: Gilroy-Medium;
+            line-height: 32px;
+            font-size: 22px;
+            color: #fff
+        }
+
+        .sec-12 h4 {
+            font-family: Gilroy-Medium;
+            line-height: 32px;
+            font-size: 22px;
+            color: #fff
+        }
+
+        .sec-04 h3 {
+            color: #fff;
+            margin-bottom: 30px
+        }
+
+        .sec-04 p {
+            color: #fff
+        }
+
+        .list-point {
+            padding: 0 100px 0 20px;
+            margin: 0;
+            list-style: none
+        }
+
+        .list-point li {
+            color: #fff;
+            font-size: 20px;
+            position: relative;
+            font-family: Gilroy-Light;
+            line-height: 32px;
+            margin-bottom: 5px;
+            padding-left: 15px
+        }
+
+        .list-point li:before {
+            content: '';
+            background: #ffa20a;
+            background: linear-gradient(40deg, #ffa20a 0, #fd4b0f 100%);
+            width: 7px;
+            height: 7px;
+            display: inline-block;
+            position: absolute;
+            left: -9px;
+            top: 12px;
+            border-radius: 50%
+        }
+
+        .list-point li:after {
+            content: '';
+            width: 17px;
+            height: 17px;
+            display: inline-block;
+            position: absolute;
+            left: -14px;
+            border: 1px solid #ef5123;
+            top: 7px;
+            border-radius: 50%
+        }
+
+        .sec-05 {
+            padding: 0 0
+        }
+
+        .sec-05 .subtitle {
+            font-size: 15px;
+            color: #ef5123;
+            line-height: 20px;
+            font-family: Gilroy-Medium;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            height: 50px;
+            position: relative;
+            margin-bottom: 30px
+        }
+
+        .sec-05 .subtitle:after {
+            content: '';
+            background: #ef5123;
+            width: 20px;
+            height: 2px;
+            display: block;
+            margin-top: 30px
+        }
+
+        .sec-05 h2 {
+            margin-bottom: 20px
+        }
+
+        .item-intro {
+            padding-left: 50px
+        }
+
+        .testimonial-item {
+            outline: 0
+        }
+
+        .testimonial-item .test-content {
+            color: #333;
+            font-size: 17px;
+            line-height: 24px;
+            font-family: Gilroy-Regular;
+            margin-bottom: 20px;
+            padding: 30px 50px;
+            position: relative;
+            height: 180px
+        }
+
+        .testimonial-item .test-content:before {
+            content: '';
+            background-image: url("https://www.tekrevol.com/assets/images-new/services/web/qoute.png");
+            width: 19px;
+            height: 17px;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 30px
+        }
+
+        .testimonial-item .test-content:after {
+            content: '';
+            background-image: url("https://www.tekrevol.com/assets/images-new/services/web/qoute.png");
+            width: 19px;
+            height: 17px;
+            display: block;
+            position: absolute;
+            bottom: 10px;
+            right: 30px
+        }
+
+        .testimonial-item .designation {
+            position: relative;
+            height: 100px;
+            padding: 20px 50px 0
+        }
+
+        .testimonial-item .designation:before {
+            content: '';
+            background: #ef5123;
+            width: 20px;
+            height: 2px;
+            display: block;
+            position: relative;
+            top: -30px
+        }
+
+        .testimonial-item .designation .img-auther {
+            width: 77px;
+            height: 77px;
+            display: inline-block
+        }
+
+        .testimonial-item .designation .img-auther img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%
+        }
+
+        .testimonial-item .designation .name-auther {
+            font-size: 15px;
+            color: #1a1a1a;
+            line-height: 24px;
+            font-family: Gilroy-SemiBold;
+            margin-bottom: 0;
+            position: absolute;
+            left: 150px;
+            top: 35px;
+            width: 40%
+        }
+
+        .test-intro {
+            padding: 100px 0
+        }
+
+        .test-review {
+            padding: 100px 0;
+            background: #fff9f9;
+            position: relative
+        }
+
+        .test-review:after {
+            content: '';
+            background: #fff9f9;
+            width: 50%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            opacity: .8
+        }
+
+        .sec-06 {
+            padding: 100px 0;
+            background: #d8410e;
+            background: linear-gradient(90deg, #d8410e 0, #e38b01 100%);
+            position: relative
+        }
+
+        .sec-06:after {
+            content: '';
+            background-image: url("https://www.tekrevol.com/assets/images-new/services/web/web-design-development.jpg");
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-size: 40%;
+            background-position: top right;
+            background-repeat: no-repeat
+        }
+
+        .sec-06 h3 {
+            color: #fff;
+            margin-bottom: 30px
+        }
+
+        .sec-06 p {
+            color: #fff;
+            margin-bottom: 20px
+        }
+
+        .sec-06 .btns-arrow {
+            position: relative;
+            z-index: 99
+        }
+
+        .sec-06 .btns-arrow a {
+            font-family: Gilroy-Semibold;
+            font-size: 18px;
+            color: #fff !important;
+            text-decoration: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 1px
+        }
+
+        .sec-06 .btns-arrow a svg {
+            position: relative;
+            top: 3px;
+            left: 5px
+        }
+
+        .sec-06 .btns-arrow a svg path {
+            fill: #fff
+        }
+
+        .sec-06 .subtitle {
+            font-size: 15px;
+            color: #fff;
+            line-height: 20px;
+            font-family: Gilroy-Medium;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            height: 50px;
+            position: relative;
+            margin-bottom: 30px
+        }
+
+        .sec-06 .subtitle:after {
+            content: '';
+            background: #fff;
+            width: 20px;
+            height: 2px;
+            display: block;
+            margin-top: 30px
+        }
+
+        .sec-07 {
+            padding: 50px 0;
+            position: relative
+        }
+
+        .sec-07:after {
+            content: '';
+            background-image: url("https://www.tekrevol.com/assets/images-new/services/web/dot.png");
+            width: 185px;
+            height: 125px;
+            display: block;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: top left;
+            position: absolute;
+            right: 250px;
+            top: 30px
+        }
+
+        .sec-07 .subtitle {
+            font-size: 15px;
+            color: #ef5123;
+            line-height: 20px;
+            font-family: Gilroy-Medium;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            height: 50px;
+            position: relative;
+            margin-bottom: 30px
+        }
+
+        .sec-07 .subtitle:after {
+            content: '';
+            background: #ef5123;
+            width: 20px;
+            height: 2px;
+            display: block;
+            margin-top: 30px
+        }
+
+        .morelink {
+            position: absolute;
+            bottom: 20px
+        }
+
+        .morelink a {
+            color: #ef5123;
+            font-family: Gilroy-Regular;
+            text-transform: uppercase;
+            font-size: 14px;
+            text-decoration: none;
+            cursor: pointer;
+            letter-spacing: 1px
+        }
+
+        .case-studies {
+            position: relative
+        }
+
+        .case-studies .case-text {
+            position: absolute;
+            bottom: 50px;
+            width: 80%;
+            left: 10%;
+            height: 0;
+            opacity: 0;
+            -webkit-transition: height .6s ease-in-out, opacity .6s;
+            -moz-transition: height .6s ease-in-out, opacity .6s;
+            -ms-transition: height .6s ease-in-out, opacity .6s;
+            -o-transition: height .6s ease-in-out, opacity .6s;
+            transition: height .6s ease-in-out, opacity .6s
+        }
+
+        .case-studies .case-logo {
+            position: absolute;
+            bottom: 50px;
+            width: 80%;
+            left: 10%;
+            height: 66px;
+            -webkit-transition: height 1s ease-in-out, opacity 1.5s;
+            -moz-transition: height 1s ease-in-out, opacity 1.5s;
+            -ms-transition: height 1s ease-in-out, opacity 1.5s;
+            -o-transition: height 1s ease-in-out, opacity 1.5s;
+            transition: height 1s ease-in-out, opacity 1.5s;
+            margin: 0 0 20px;
+            opacity: 1
+        }
+
+        .case-studies:hover .case-logo {
+            height: 0;
+            -webkit-transition: height .1s ease-in-out, opacity .2s;
+            -moz-transition: height .1s ease-in-out, opacity .2s;
+            -ms-transition: height .1s ease-in-out, opacity .2s;
+            -o-transition: height .1s ease-in-out, opacity .2s;
+            transition: height .1s ease-in-out, opacity .2s;
+            opacity: 0
+        }
+
+        .case-studies:hover .case-text {
+            height: 250px;
+            opacity: 1;
+            -webkit-transition: height .6s ease-in-out, opacity .6s;
+            -moz-transition: height .6s ease-in-out, opacity .6s;
+            -ms-transition: height .6s ease-in-out, opacity .6s;
+            -o-transition: height .6s ease-in-out, opacity .6s;
+            transition: height .6s ease-in-out, opacity .6s
+        }
+
+        .case-studies .case-text img {
+            width: 220px;
+            height: 66px;
+            transition: linear .3s;
+            margin: 0 0 20px
+        }
+
+        .case-studies .case-text:before {
+            content: '';
+            background: #fff;
+            width: 30px;
+            height: 2px;
+            display: block;
+            margin-top: 30px;
+            position: relative;
+            top: 80px;
+            opacity: .5
+        }
+
+        .case-studies .case-text p {
+            width: 100%;
+            color: #fff;
+            font-size: 18px;
+            font-family: Gilroy-Medium;
+            margin-bottom: 20px
+        }
+
+        .case-studies .case-text a {
+            color: #fff;
+            font-family: Gilroy-Medium;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 15px;
+            letter-spacing: 1px;
+            display: block;
+            margin: 10px 0
+        }
+
+        .sec-09 {
+            padding: 100px 0 100px;
+            background: #1f1e1d;
+            position: relative
+        }
+
+        .sec-09:before {
+            content: '';
+            background-image: url("https://www.tekrevol.com/assets/images-new/services/web/black-bg.png");
+            width: 1050px;
+            height: 1050px;
+            display: block;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: top left;
+            position: absolute;
+            left: -250px;
+            top: 230px
+        }
+
+        .sec-09 .ser-feature {
+            position: sticky;
+            top: 120px
+        }
+
+        .sec-09 .subtitle {
+            font-size: 15px;
+            color: #ef5123;
+            line-height: 20px;
+            font-family: Gilroy-Medium;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            height: 50px;
+            position: relative;
+            margin-bottom: 30px
+        }
+
+        .sec-09 .subtitle:after {
+            content: '';
+            background: #ef5123;
+            width: 20px;
+            height: 2px;
+            display: block;
+            margin-top: 30px
+        }
+
+        .sec-09 h2, .sec-09 p {
+            color: #fff
+        }
+
+        .service-list {
+            margin-bottom: 50px
+        }
+
+        .service-list .number {
+            font-size: 30px;
+            font-family: Gilroy-Bold;
+            color: #fff;
+            margin: 10px 15px
+        }
+
+        .service-list h5 {
+            color: #fff;
+            font-size: 24px;
+            margin-bottom: 20px;
+            font-family: Gilroy-SemiBold
+        }
+
+        .ser-item::-webkit-scrollbar {
+            width: 0
+        }
+
+        .ser-item::-webkit-scrollbar-track {
+            background: #f1f1f1
+        }
+
+        .ser-item::-webkit-scrollbar-thumb {
+            background: #888
+        }
+
+        .ser-item::-webkit-scrollbar-thumb:hover {
+            background: #555
+        }
+
+        .sec-10 {
+            background: #fff;
+            position: relative
+        }
+
+        .sec-10 .passion {
+            padding-top: 50px;
+            padding-bottom: 50px
+        }
+
+        .sec-10:after {
+            content: '';
+            background-image: url("https://www.tekrevol.com/assets/images-new/services/web/performing-result.jpg");
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-size: 40%;
+            background-position: top left;
+            background-repeat: no-repeat
+        }
+
+        .sec-10 h3 {
+            color: #282526;
+            margin-bottom: 30px
+        }
+
+        .sec-10 p {
+            color: #282526;
+            margin-bottom: 20px
+        }
+
+        .sec-10 .btns-arrow a {
+            font-family: Gilroy-SemiBold;
+            font-size: 18px;
+            color: #ef5123 !important;
+            text-decoration: none;
+            cursor: pointer;
+            position: relative;
+            z-index: 99;
+            text-transform: uppercase;
+            letter-spacing: 1px
+        }
+
+        .sec-10 .btns-arrow a svg {
+            position: relative;
+            top: 3px;
+            left: 5px
+        }
+
+        .sec-10 .btns-arrow a svg path {
+            fill: #ef5123
+        }
+
+        .sec-10 .subtitle {
+            font-size: 15px;
+            color: #ef5123;
+            line-height: 20px;
+            font-family: Gilroy-Medium;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            height: 50px;
+            position: relative;
+            margin-bottom: 30px
+        }
+
+        .sec-10 .subtitle:after {
+            content: '';
+            background: #ef5123;
+            width: 20px;
+            height: 2px;
+            display: block;
+            margin-top: 30px
+        }
+
+        .sec-11 {
+            background: #f84525;
+            padding: 100px 0;
+            position: relative
+        }
+
+        .sec-11:after {
+            content: '';
+            background-image: url("https://www.tekrevol.com/assets/images-new/services/web/dot.png");
+            width: 185px;
+            height: 125px;
+            display: block;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: top left;
+            position: absolute;
+            right: 100px;
+            top: 100px
+        }
+
+        .sec-11 .subtitle {
+            font-size: 15px;
+            color: #fff;
+            line-height: 20px;
+            font-family: Gilroy-Medium;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            height: 50px;
+            position: relative;
+            margin-bottom: 30px
+        }
+
+        .sec-11 .subtitle:after {
+            content: '';
+            background: #fff;
+            width: 20px;
+            height: 2px;
+            display: block;
+            margin-top: 30px
+        }
+
+        .sec-11 h3, .sec-11 p {
+            color: #fff
+        }
+
+        .sec-12 {
+            background: #1f1e1d;
+            padding: 100px 0
+        }
+
+        .sec-12 .subtitle {
+            font-size: 15px;
+            color: #ef5123;
+            line-height: 20px;
+            font-family: Gilroy-Medium;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            height: 50px;
+            position: relative;
+            margin-bottom: 30px
+        }
+
+        .sec-12 .subtitle:after {
+            content: '';
+            background: #ef5123;
+            width: 20px;
+            height: 2px;
+            display: block;
+            margin-top: 30px
+        }
+
+        .sec-12 h3 {
+            color: #fff;
+            margin-bottom: 30px
+        }
+
+        .sec-12 p {
+            color: #fff
+        }
+
+        .sec-12 h3 span.color {
+            color: #fff;
+            display: block
+        }
+
+        .solution-content {
+            width: 35%;
+            display: inline-block;
+            vertical-align: top;
+            padding-right: 50px
+        }
+
+        .solution-content .subtitle {
+            font-size: 19px;
+            color: #fff;
+            line-height: 20px;
+            font-family: Gilroy-Medium;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            height: 50px;
+            position: relative;
+            margin-bottom: 20px;
+            margin-top: 20px
+        }
+
+        .solution-content .subtitle:after {
+            content: '';
+            background: #ef5123;
+            width: 20px;
+            height: 2px;
+            display: block;
+            margin-top: 15px
+        }
+
+        .solution-img {
+            width: 35%;
+            display: inline-block;
+            vertical-align: top
+        }
+
+        .solution-img img {
+            text-align: center
+        }
+
+        .solution-menu {
+            width: 28%;
+            display: inline-block
+        }
+
+        .solution-menu ul {
+            padding: 0;
+            margin: 0;
+            list-style: none
+        }
+
+        .solution-menu ul li {
+            text-align: center;
+            margin: 0 0 0;
+            cursor: pointer
+        }
+
+        .solution-menu ul li:after {
+            content: '';
+            background-image: url("https://www.tekrevol.com/assets/images-new/services/web/Shape.png");
+            width: 1px;
+            height: 50px;
+            margin: 10px auto;
+            display: block
+        }
+
+        .solution-menu ul li:last-child:after {
+            display: none
+        }
+
+        .solution-menu ul li {
+            font-family: Gilroy-Medium;
+            font-size: 16px;
+            color: #d3d3d3;
+            text-decoration: none
+        }
+
+        .solution-menu ul li.current, .solution-menu ul li:hover {
+            color: #ef5123
+        }
+
+        .solution-content h4 {
+            color: #fff;
+            font-size: 25px;
+            margin-bottom: 20px;
+            font-family: Gilroy-SemiBold;
+            padding-right: 40px;
+            line-height: 34px
+        }
+
+        .solution-content h4 span {
+            font-family: Gilroy-Light
+        }
+
+        .solution-content, .solution-img {
+            display: none
+        }
+
+        .sec-13 {
+            padding: 50px 0
+        }
+
+        .sec-13 p {
+            font-size: 20px;
+            font-family: Gilroy-SemiBold;
+            margin: 30px 0;
+        }
+        .box h3 span {
+    font-weight: 500;
+    color: #F47A1F;
+    font-family: 'Gilroy-Bold';
+}
+.box h3{
+    font-size:30px;
+    font-family:"Gilroy-Bold";
+}
+
+        @media (min-width: 1200px) and (max-width: 1520px) {
+            .item-intro {
+                padding-left: 0;
+                position: relative;
+                left: -150px
+            }
+            .sec-01{
+                padding-top:70px;
+            }
+
+            .test-review:after {
+                width: 25%
+            }
+
+            .sec-06:after {
+                right: -120px;
+                background-size: 50%
+            }
+
+            .sec-06, .sec-10 {
+                overflow: hidden
+            }
+
+            .sec-10:after {
+                left: -180px;
+                background-size: 55%
+            }
+
+            .sec-09:before {
+                background-size: 70%;
+                left: -250px;
+                top: 250px
+            }
+
+            .sec-03:after {
+                display: none
+            }
+
+            .case-studies .case-text p {
+                width: 100%;
+                font-size: 15px;
+                line-height: 20px
+            }
+
+            .case-studies .case-text img {
+                width: 150px;
+                height: 45px
+            }
+
+            .case-studies .case-text {
+                position: absolute;
+                bottom: 10px;
+                width: 90%;
+                left: 5%
+            }
+
+            .case-studies .case-text a {
+                margin: 15px 0 15px;
+                font-size: 12px
+            }
+
+            .case-studies .case-text:before {
+                top: 60px
+            }
+
+            .sec-04:before {
+                background-size: 70%;
+                left: -200px;
+                top: 0
+            }
+
+            .sec-04:after {
+                right: 50px
+            }
+
+            .sec-01:after {
+                content: '';
+                /*background-image: url("https://www.tekrevol.com/assets/images-new/services/web/dot.png");*/
+                width: 185px;
+                height: 125px;
+                display: block;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: top left;
+                position: absolute;
+                right: 30px;
+                top: 100px
+            }
+
+            .sec-11:after {
+                right: 30px;
+                top: 20px
+            }
+          
+        }
+        @media (min-width: 1200px) and (max-width: 1365px) {
+            .sec-01{height: 670px;
+    background-position: 96% 59%;}
+            .box h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+        }
+
+        @media (min-width: 901px) and (max-width: 1199px) {
+            .sec-01{height: 670px;
+    background-position: 96% 59%;}
+            .case-studies .case-text p {
+                width: 100%;
+                font-size: 15px;
+                line-height: 20px
+            }
+
+            .case-studies .case-text img {
+                width: 150px;
+                height: 45px
+            }
+
+            .case-studies .case-text {
+                position: absolute;
+                bottom: 10px;
+                width: 90%;
+                left: 5%
+            }
+
+            .case-studies .case-text a {
+                margin: 15px 0 15px;
+                font-size: 12px
+            }
+
+            .case-studies .case-text:before {
+                top: 60px
+            }
+
+            .sec-06:after {
+                right: -220px;
+                background-size: 63%
+            }
+
+            .sec-06, .sec-10 {
+                overflow: hidden
+            }
+
+            .sec-10:after {
+                left: -280px;
+                background-size: 68%
+            }
+
+            .item-intro {
+                padding-left: 20px;
+                padding-right: 20px
+            }
+
+            .testimonial-item .test-content {
+                padding: 30px 15px
+            }
+
+            .testimonial-item .designation {
+                padding: 20px 15px 0
+            }
+
+            .test-review:after {
+                width: 25%
+            }
+
+            .testimonial-item .designation .name-auther {
+                left: 110px;
+                width: 100%
+            }
+
+            video {
+                width: 100%
+            }
+        }
+
+        @media (min-width: 568px) and (max-width: 900px) {
+            .side-nav span {
+                background: #000
+            }
+
+            .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link, .sidepanel .navbar-nav .nav-link {
+                color: #fff
+            }
+
+            .sec-01 {
+                padding: 80px 0 50px;
+                 height: 670px;
+    background-position: 96% 59%;
+            }
+
+            .sec-01:after, .sec-03:after, .sec-04:after, .sec-04:before, .sec-06:after, .sec-09:before, .sec-10:after, .sec-11:after, .test-review:after {
+                display: none
+            }
+
+            .item-intro {
+                padding-left: 15px
+            }
+
+            .case-studies .case-text p {
+                width: 100%;
+                font-size: 15px;
+                line-height: 20px
+            }
+
+            .case-studies .case-text img {
+                width: 150px;
+                height: 45px
+            }
+
+            .case-studies .case-text {
+                position: absolute;
+                bottom: 10px;
+                width: 90%;
+                left: 5%
+            }
+
+            .case-studies .case-text a {
+                margin: 15px 0 15px;
+                font-size: 12px
+            }
+
+            .case-studies .case-text:before {
+                top: 60px
+            }
+
+            .solution-img {
+                display: none !important
+            }
+
+            .solution-content, .solution-menu {
+                width: 50% !important;
+                padding-right: 0
+            }
+
+            .sec-13 .btns {
+                margin-bottom: 40px
+            }
+
+            .solution-menu ul li:after {
+                height: 20px
+            }
+
+            video {
+                width: 100%
+            }
+        }
+
+        @media (min-width: 320px) and (max-width: 567px) {
+            .sec-09 .ser-feature {
+                position: unset;
+                margin-bottom: 40px
+            }
+            h1 {
+    line-height: 40px;
+    font-size: 30px;
+}
+
+            .list-point li {
+                font-size: 18px
+            }
+
+            .sec-01 p {
+                padding-top: 20px
+            }
+
+            .sec-01 p:before {
+                display: none
+            }
+
+            .side-nav span {
+                background: #000
+            }
+
+            .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link, .sidepanel .navbar-nav .nav-link {
+                color: #fff
+            }
+
+            .sec-01 {
+                padding: 80px 0 30px;
+                background: #fff
+            }
+
+            p {
+                font-size: 15px;
+                line-height: 24px
+            }
+
+            .sec-01:after, .sec-03:after, .sec-04:after, .sec-04:before, .sec-06:after, .sec-09:before, .sec-10:after, .sec-11:after, .test-review:after {
+                display: none
+            }
+
+            .sec-04, .sec-06, .sec-09, .sec-12 {
+                padding: 50px 0;
+            }
+            .sec-03 {
+    padding: 240px 0 30px 0;
+}
+
+            .list-point {
+                padding: 0 0 0 20px
+            }
+
+            .item-intro {
+                padding-left: 15px
+            }
+
+            .test-intro, .test-review {
+                padding: 50px 0
+            }
+
+            .testimonial-item .designation, .testimonial-item .test-content {
+                padding: 15px;
+                height: auto
+            }
+
+            .testimonial-item .test-content:before {
+                left: 10px
+            }
+
+            .testimonial-item .designation .name-auther {
+                left: 100px;
+                top: 30px;
+                width: 100%
+            }
+
+            .testimonial-item .test-content:after {
+                bottom: 0;
+                right: 10px
+            }
+
+            .morelink {
+                position: relative;
+                bottom: 0
+            }
+
+            .case-studies .case-text p {
+                width: 100%;
+                font-size: 15px;
+                line-height: 20px
+            }
+
+            .case-studies .case-text img {
+                width: 150px;
+                height: 45px
+            }
+
+            .case-studies .case-text {
+                position: absolute;
+                bottom: 10px;
+                width: 90%;
+                left: 5%
+            }
+
+            .case-studies .case-text a {
+                margin: 15px 0 15px;
+                font-size: 12px
+            }
+
+            .solution-img, .solution-menu {
+                display: none !important
+            }
+
+            .solution-content {
+                width: 100% !important;
+                padding-right: 0;
+                display: block !important
+            }
+
+            .sec-13 .btns {
+                margin-bottom: 40px
+            }
+
+            video {
+                width: 100%
+            }
+             .box {
+    padding: 20px 20px;
+    margin-top: 20px;
+}
+.box h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+            
+        }
+        
+         @media (min-width: 320px) and (max-width: 380px) {
+             .sec-03 {
+    padding: 300px 0 30px 0;
+}
+         }
+
+/*Inshaal Form CSS*/
+.inrow {
+    display: flex;
+    align-items: top;
+      /* position: absolute; */
+    bottom: 0;
+    padding-top: 20px;
+}
+.inrow h3 {
+    width: 358px;
+    font-size: 22px;
+}
+.img_logo {
+    padding: 0 14px;
+}
+.sec01 ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+
+@media (min-width: 1201px) and (max-width: 1300px){
+    .inrow h3 {
+    font-size: 24px;
+}
+.img_logo {
+    padding: 0 8px;
+}
+}
+
+
+@media (min-width: 1025px) and (max-width: 1200px){
+   .img_logo {
+    padding: 0 8px;
+}
+.inrow h3 {
+    font-size: 20px;
+}
+} 
+
+@media (min-width: 992px) and (max-width: 1024px){
+   .inrow {
+    padding-top: 80px;
+}
+.img_logo {
+    padding: 0 8px;
+}
+.inrow h3 {
+    font-size: 20px;
+} 
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .inrow h3 {
+    font-size: 17px;
+}
+.inrow {
+    padding-top: 50px;
+}
+.img_logo {
+    padding: 0 8px;
+}
+}  
+
+@media (min-width: 0px) and (max-width: 767px){
+   .inrow {
+    position: initial;
+    padding-top: 20px;
+    display: initial;
+}
+.inrow ul {
+    margin-bottom: 10px;
+}
+.img_logo {
+    padding: 0 7px;
+}
+.inrow h3 {
+    font-size: 26px;
+    padding-top: 20px;
+}
+.sec01 ul {
+    padding:0px;
+    
+}
+.sec01 img{
+    margin-top:0px;
+}  
+}
+
+
+/*Inhaal Form CSS*/
+.box h3 {
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 40px;
+    letter-spacing: 0.022em;
+     font-family: Gilroy-Bold !important;
+}
+.box.form .form-group {
+    position: relative;
+}
+.box.form input:-webkit-autofill, input:-webkit-autofill:focus, input:-webkit-autofill:hover, select:-webkit-autofill, select:-webkit-autofill:focus, select:-webkit-autofill:hover, textarea:-webkit-autofill, textarea:-webkit-autofill:focus, textarea:-webkit-autofill:hover {
+    -webkit-text-fill-color: #495057 !important;
+}
+.box.form .form-group2:after {
+    content: '';
+    width: 20px;
+    height: 2px;
+    background: #F47A1F;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.box h3 span {
+    font-weight: 500;
+    color: #F47A1F;
+     font-family: Gilroy-Bold !important;
+}
+.box h3 span {
+    font-weight: 500;
+    color: #F47A1F;
+}
+ .show_mob{display:none;}
+    .hide_mob{display:block;}
+.form .form-control {
+    background: #fff0;
+    font-family: 'Gilroy-Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    /* or 333% */
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0 0px;
+    border-radius: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid #00000024;
+    margin-bottom: 10px;
+    resize: none;
+    overflow: hidden;
+}
+.form-group1 label span{
+   font-family: 'Gilroy-Medium'; 
+}
+
+.box {
+    background: #FFFFFF;
+    box-shadow: 7px 1px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 20px 40px;
+    max-width: 420px;
+    margin: auto;
+}
+
+.form-group1 {
+    margin-top: 22px;
+    margin-bottom: 30px;
+}
+.btn-01 {
+    color: #F47A1F;
+    border-radius: 10px;
+    border: 2px solid #F47A1F;
+    padding: 0 35px;
+    height: 55px;
+    line-height: 52px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 19px;
+    background: #fff0;
+    transition: .5s ease;
+    cursor:pointer;
+}
+.btn-01:hover {
+    background: #F47A1F;
+    color: #fff;
+}
+.box.form input ,textarea:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+@media (min-width: 1521px) and (max-width: 1920px) {
+    .box h3 {
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom:10px;
+    line-height:45px;
+    }
+    .box h3 span {
+    font-size: 35px;
+     line-height:45px;
+}
+.form-group1 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.form .form-control {
+    height: 40px;
+    font-size:13px;
+}
+.btn-01 {
+    margin-top: 10px;
+    width: 160px;
+    padding: 0px;
+    font-size: 15px;
+    height: 50px;
+    line-height: 45px;
+}
+}
+
+  @media (min-width: 1200px) and (max-width: 1520px) {
+      .box h3 {
+    font-size: 34px;
+    line-height: 40px;
+     margin-bottom: 10px;
+}
+.banner {
+    height:100vh;
+    padding-top: 70px;
+}
+
+.form .form-control {
+    height: 40px;
+    font-size:13px;
+}
+.form-group1 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.btn-01 {
+    margin-top: 10px;
+    width: 160px;
+    padding: 0px;
+    font-size: 15px;
+    height: 50px;
+    line-height: 45px;
+}
+.form-group1 label span {
+    font-size: 14px;
+    vertical-align: text-top;
+}
+.box h3 span {
+    font-size:34px;
+}
+.box {
+    max-width: 390px;
+    margin: auto;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .box h3 {
+    font-size: 34px;
+    line-height: 40px;
+     margin-bottom: 10px;
+}
+.banner {
+    padding-top: 70px;
+}
+
+.form .form-control {
+    height: 40px;
+    font-size:13px;
+}
+.form-group1 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.btn-01 {
+    margin-top: 10px;
+    width: 160px;
+    padding: 0px;
+    font-size: 15px;
+    height: 50px;
+    line-height: 45px;
+}
+.form-group1 label span {
+    font-size: 14px;
+    vertical-align: text-top;
+}
+.box h3 span {
+    font-size:34px;
+}
+.box {
+    max-width: 390px;
+    margin: auto;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+ .box {
+    padding: 20px 20px;
+}
+.box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.form .form-control {
+    height: 40px;
+    font-size:13px;
+}
+.form-group1 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.btn-01 {
+    margin-top: 10px;
+    width: 160px;
+    padding: 0px;
+    font-size: 15px;
+    height: 50px;
+    line-height: 45px;
+}
+.form-group1 label span {
+    font-size: 14px;
+    vertical-align: text-top;
+}
+.box h3 span {
+    font-size:34px;
+}
+.box {
+    max-width: 390px;
+    margin: auto;
+}
+}
+
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .box {
+    padding: 20px 20px;
+    margin-top: 20px;
+}
+.banner {
+    height:100%;
+    padding-top: 70px;
+    padding-bottom:30px;
+}
+.box h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.form .form-control {
+    height: 40px;
+}
+.box h3 span {
+    font-size:23px;
+}
+.form-group1 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.btn-01 {
+    margin-top: 10px;
+    width: 150px;
+    padding: 0px;
+    font-size: 15px;
+}
+.form-group1 label span {
+    font-size: 13px;
+}
+.box h3 {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+  }
+
+  .map-bg {
+    background: url(../assets/images-new/ezgif.com-gif-maker2.png) no-repeat;}
+.marker3 .name_coun p {
+    padding-left: 8px;
+}
+.marker3:hover .contact-canada-banner div.name_coun span {
+    float: left;
+    margin-top: 10px;
+    width: 48%;
+    margin-left: 2%;
+    border-right: 1px solid #000;
+    font-size: 12px;
+}
+ #header-4 {
+            top:0px;
+        }
+        section#header-4.fixed {
+    top: 0;
+    z-index: 999;
+}
+        .marqee_banner .marquee p {
+    animation: marquee-text 15s linear infinite;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 0;
+    padding-left: 30px;
+}
+.marqee_banner .marquee {
+    animation: marquee 0s linear infinite;
+    white-space: nowrap;
+}
+.marqee_banner {
+    background: #314252;
+    height: 30px;
+    overflow: hidden;
+    position:relative !important;
+}
+@keyframes  marquee-text {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+.marker3 span.add__02 {
+    border-right: 0px;
+}
+
+.marker3:hover .contact-canada-banner div.name_coun span:nth-child(odd) {
+    border-right: 0px;
+}
+    .marker3:hover .contact-canada-banner {
+     
+    padding: 10px 10px 10px 25px;
+    top: -137px;
+    left: 23px;
+    width: 427px;
+    padding-top: 0;
+    background-size: 100% 100%;
+    padding-bottom: 0;
+    transition: all .25s ease;
+    height: 165px;
+    display: block;
+    text-align: left;
+    z-index: 99999;
+}
+.location-list li a {
+    font-size: 12px; 
+    padding: 0 6px;
+}
